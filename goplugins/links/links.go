@@ -184,5 +184,6 @@ func init() {
 	bot.RegisterPlugin("links", bot.PluginHandler{
 		DefaultConfig: defaultConfig,
 		Handler:       links,
+		Config:        &config{},
 	})
 }

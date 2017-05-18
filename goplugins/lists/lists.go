@@ -205,5 +205,6 @@ func init() {
 	bot.RegisterPlugin("lists", bot.PluginHandler{
 		DefaultConfig: defaultConfig,
 		Handler:       lists,
+		Config:        &config{},
 	})
 }
