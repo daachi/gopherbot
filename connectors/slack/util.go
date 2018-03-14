@@ -11,8 +11,8 @@ import (
 	"sync"
 	"time"
 
+	"github.com/lnxjedi/gopherbot/bot"
 	"github.com/nlopes/slack"
-	"github.com/uva-its/gopherbot/bot"
 )
 
 const optimeout = 1 * time.Minute

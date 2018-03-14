@@ -6,7 +6,7 @@ Table of Contents
   * [Message Formatting](#message-formatting)
   * [Code Examples](#code-examples)
     * [Bash](#bash)
-    * [Powershell](#powershell)
+    * [PowerShell](#powershell)
     * [Python](#python)
     * [Ruby](#ruby)
 
@@ -25,16 +25,16 @@ For the "fixed" and "variable" formats, Gopherbot processes each outgoing messag
 ## Bash
 ```bash
 # Note that bash isn't object-oriented
-Say("I'm sending a message to Bob in #general")
-SendUserChannelMessage("bob", "general", "Hi, Bob!")
+Say "I'm sending a message to Bob in #general" 
+SendUserChannelMessage "bob" "general" "Hi, Bob!"
 RETVAL = $?
 if [ $RETVAL -ne $GBRET_Ok ]
 then
-  Log("Error", "Unable to message Bob in #general - return code $RETVAL")
+  Log "Error" "Unable to message Bob in #general - return code $RETVAL"
 fi
 ```
 
-## Powershell
+## PowerShell
 ```powershell
 $bot.Say("I'm sending a message to Bob in #general")
 $retval = $bot.SendUserChannelMessage("bob", "general", "Hi, Bob!")
