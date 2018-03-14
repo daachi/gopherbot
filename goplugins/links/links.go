@@ -7,7 +7,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/lnxjedi/gopherbot/bot"
+	"github.com/uva-its/gopherbot/bot"
 )
 
 const datumNameDefault = "links"

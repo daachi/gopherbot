@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/lnxjedi/gopherbot/bot"
+	"github.com/uva-its/gopherbot/bot"
 )
 
 // Message send delay; slack has problems with scrolling if messages fly out

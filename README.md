@@ -1,8 +1,5 @@
 # Gopherbot
 
-[![CircleCI](https://circleci.com/gh/lnxjedi/gopherbot.svg?style=shield)](https://circleci.com/gh/lnxjedi/gopherbot)
-[![GoDoc](https://godoc.org/github.com/lnxjedi/gopherbot/bot?status.png)](https://godoc.org/github.com/lnxjedi/gopherbot/bot)
-
 ## A.K.A. SUDO for the Enterprise
 Gopherbot is:
 * A chat bot designed for ChatOps originally inspired by Hubot

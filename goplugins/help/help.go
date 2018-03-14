@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/lnxjedi/gopherbot/bot"
+	"github.com/uva-its/gopherbot/bot"
 )
 
 var (

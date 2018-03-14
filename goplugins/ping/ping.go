@@ -3,7 +3,7 @@
 package ping
 
 import (
-	"github.com/lnxjedi/gopherbot/bot"
+	"github.com/uva-its/gopherbot/bot"
 )
 
 const defaultConfig = `

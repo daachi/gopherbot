@@ -8,7 +8,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/lnxjedi/gopherbot/bot"
+	"github.com/uva-its/gopherbot/bot"
 )
 
 var brainPath string
